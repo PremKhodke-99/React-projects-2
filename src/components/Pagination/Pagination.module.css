@@ -1,0 +1,14 @@
+.listitem {
+    list-style: none;
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    padding: 0;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.paginationbtn.active {
+    border-color: #646cff;
+    background-color: #312727;
+}
