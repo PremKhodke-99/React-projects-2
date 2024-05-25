@@ -1,0 +1,9 @@
+.timer-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.timer p{
+    font-size: 30px;
+}
