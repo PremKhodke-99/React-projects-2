@@ -1,0 +1,18 @@
+.random-quote-generator{
+    margin: 20px 0px;
+}
+
+.quote-wrapper{
+    background-color: black;
+    padding: 3px;
+    border-radius: 8px;
+    max-width: 500px;
+    min-height: 100px;
+    margin: 30px auto;
+}
+
+.quote-wrapper p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
