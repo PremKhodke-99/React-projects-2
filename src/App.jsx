@@ -5,6 +5,7 @@ import DigitalClock from './components/DigitalClock/DigitalClock'
 import CountdownTimerTest from './components/Countdown-Timer/test'
 import StepProgressBarTest from './components/Step-Progress-Bar/test'
 import RandomQuoteGenerator from './components/RandomQuote-generator/RandomQuoteGenerator'
+import TooltipTest from './components/Tooltip/test'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <CountdownTimerTest />
         <StepProgressBarTest />
         <RandomQuoteGenerator />
+        <TooltipTest />
       </div>
     </>
   )
