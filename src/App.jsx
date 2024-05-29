@@ -6,6 +6,7 @@ import CountdownTimerTest from './components/Countdown-Timer/test'
 import StepProgressBarTest from './components/Step-Progress-Bar/test'
 import RandomQuoteGenerator from './components/RandomQuote-generator/RandomQuoteGenerator'
 import TooltipTest from './components/Tooltip/test'
+import CurrencyConverter from './components/CurrencyConverter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <StepProgressBarTest />
         <RandomQuoteGenerator />
         <TooltipTest />
+        <CurrencyConverter />
       </div>
     </>
   )
