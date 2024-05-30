@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import PaginationTest from './components/Pagination/test'
 import DigitalClock from './components/DigitalClock/DigitalClock'
@@ -11,9 +10,9 @@ import FilterProducts from './components/FilterCards'
 import TipCalculator from './components/TipCalculator'
 import MusicPlayer from './components/MusicPlayer'
 import ProgressBar from './components/ProgressBar'
+import BMICalculator from './components/BMICalculator'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -29,6 +28,7 @@ function App() {
         <TipCalculator />
         <MusicPlayer />
         <ProgressBar />
+        <BMICalculator />
       </div>
     </>
   )
