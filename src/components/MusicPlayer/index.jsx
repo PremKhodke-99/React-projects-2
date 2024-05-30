@@ -12,12 +12,12 @@ function MusicPlayer() {
         {
             title: "Track 1",
             source: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-            image: "https://via.placeholder.com/150",
+            image: "https://static.vecteezy.com/system/resources/previews/021/693/323/non_2x/a-logo-for-a-music-company-that-is-made-by-song-brand-vector.jpg",
         },
         {
             title: "Track 2",
             source: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-            image: "https://via.placeholder.com/150",
+            image: "https://assets.teenvogue.com/photos/64a5ba095699418416716eba/1:1/w_3962,h_3962,c_limit/1474272248",
         },
     ];
 

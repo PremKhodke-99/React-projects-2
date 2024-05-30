@@ -10,6 +10,7 @@ import CurrencyConverter from './components/CurrencyConverter'
 import FilterProducts from './components/FilterCards'
 import TipCalculator from './components/TipCalculator'
 import MusicPlayer from './components/MusicPlayer'
+import ProgressBar from './components/ProgressBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
         <FilterProducts />
         <TipCalculator />
         <MusicPlayer />
+        <ProgressBar />
       </div>
     </>
   )
