@@ -7,6 +7,9 @@ import StepProgressBarTest from './components/Step-Progress-Bar/test'
 import RandomQuoteGenerator from './components/RandomQuote-generator/RandomQuoteGenerator'
 import TooltipTest from './components/Tooltip/test'
 import CurrencyConverter from './components/CurrencyConverter'
+import FilterProducts from './components/FilterCards'
+import TipCalculator from './components/TipCalculator'
+import MusicPlayer from './components/MusicPlayer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +24,9 @@ function App() {
         <RandomQuoteGenerator />
         <TooltipTest />
         <CurrencyConverter />
+        <FilterProducts />
+        <TipCalculator />
+        <MusicPlayer />
       </div>
     </>
   )
