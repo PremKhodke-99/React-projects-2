@@ -11,6 +11,8 @@ import TipCalculator from './components/TipCalculator'
 import MusicPlayer from './components/MusicPlayer'
 import ProgressBar from './components/ProgressBar'
 import BMICalculator from './components/BMICalculator'
+import ButtonRippleEffect from './components/ButtonRippleEffect'
+import DragAndDrop from './components/DragAndDrop'
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
         <MusicPlayer />
         <ProgressBar />
         <BMICalculator />
+        <ButtonRippleEffect />
+        <DragAndDrop />
       </div>
     </>
   )
