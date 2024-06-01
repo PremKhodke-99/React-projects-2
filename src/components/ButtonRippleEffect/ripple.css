@@ -1,0 +1,43 @@
+.ripple-effect-container{
+    max-width: 500px;
+    margin: auto;
+}
+
+.ripple-effect-container h1{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.ripple-effect-container .ripple-btn{
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple-effect-container .ripple-btn .ripple-inner-span{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(107, 73, 33);
+    content: '';
+    display: block;
+    opacity: 1;
+    border-radius: 9999px;
+    animation: 1s ease 1 forwards ripple-effect-keyframe;
+}
+
+@keyframes ripple-effect-keyframe{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50%{
+        transform: scale(10);
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: scale(40);
+        opacity: 0;
+    }
+}
