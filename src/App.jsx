@@ -14,6 +14,7 @@ import BMICalculator from './components/BMICalculator'
 import ButtonRippleEffect from './components/ButtonRippleEffect'
 import DragAndDrop from './components/DragAndDrop'
 import FormValidation from './components/SimpleFormValidation'
+import FileUpload from './components/FileUpload'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <ButtonRippleEffect />
         <DragAndDrop />
         <FormValidation />
+        <FileUpload />
       </div>
     </>
   )
