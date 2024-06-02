@@ -13,6 +13,7 @@ import ProgressBar from './components/ProgressBar'
 import BMICalculator from './components/BMICalculator'
 import ButtonRippleEffect from './components/ButtonRippleEffect'
 import DragAndDrop from './components/DragAndDrop'
+import FormValidation from './components/SimpleFormValidation'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <BMICalculator />
         <ButtonRippleEffect />
         <DragAndDrop />
+        <FormValidation />
       </div>
     </>
   )
