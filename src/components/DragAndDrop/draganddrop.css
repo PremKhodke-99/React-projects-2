@@ -41,6 +41,7 @@
     width: 330px;
     overflow: auto;
     display: flex;
+    border-radius: 10px;
     align-items: center;
     flex-direction: column;
     gap: 20px;
