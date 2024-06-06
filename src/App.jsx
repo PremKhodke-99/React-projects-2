@@ -17,6 +17,7 @@ import FormValidation from './components/SimpleFormValidation'
 import FileUpload from './components/FileUpload'
 import Quiz from './components/QuizApp'
 import NestedComments from './components/NestedComments'
+import PdfViewer from './components/PdfViewer'
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
         <FileUpload />
         <Quiz />
         <NestedComments />
+        <PdfViewer />
       </div>
     </>
   )
