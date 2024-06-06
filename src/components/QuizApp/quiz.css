@@ -1,0 +1,52 @@
+.quiz {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+
+    color: #333333;
+}
+
+.quiz h1 {
+    margin-bottom: 30px;
+}
+
+.quiz .option-wrapper .options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.quiz .option-wrapper h2, .result-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.quiz .option-wrapper p, .result-wrapper p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #646cff;
+}
+
+.quiz .option-wrapper .options .option {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.quiz .option-wrapper .options .option.selected{
+    background-color: #646cff;
+    color: #f9f9f9;
+}
+
+.quiz .option-wrapper .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
