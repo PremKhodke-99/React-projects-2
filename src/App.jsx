@@ -16,6 +16,7 @@ import DragAndDrop from './components/DragAndDrop'
 import FormValidation from './components/SimpleFormValidation'
 import FileUpload from './components/FileUpload'
 import Quiz from './components/QuizApp'
+import NestedComments from './components/NestedComments'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         <FormValidation />
         <FileUpload />
         <Quiz />
+        <NestedComments />
       </div>
     </>
   )
