@@ -18,6 +18,7 @@ import FileUpload from './components/FileUpload'
 import Quiz from './components/QuizApp'
 import NestedComments from './components/NestedComments'
 import PdfViewer from './components/PdfViewer'
+import FirebaseTodo from './components/FirebaseTodo'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <Quiz />
         <NestedComments />
         <PdfViewer />
+        <FirebaseTodo />
       </div>
     </>
   )
