@@ -20,6 +20,7 @@ import NestedComments from './components/NestedComments'
 import PdfViewer from './components/PdfViewer'
 import FirebaseTodo from './components/FirebaseTodo'
 import FirebaseAuth from './components/FirebaseAuth'
+import DebounceApiCall from './components/DebounceApiCall'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
         <PdfViewer />
         <FirebaseTodo />
         <FirebaseAuth />
+        <DebounceApiCall />
       </div>
     </>
   )
