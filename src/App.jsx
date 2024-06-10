@@ -21,6 +21,7 @@ import PdfViewer from './components/PdfViewer'
 import FirebaseTodo from './components/FirebaseTodo'
 import FirebaseAuth from './components/FirebaseAuth'
 import DebounceApiCall from './components/DebounceApiCall'
+import SortData from './components/SortData'
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
         <FirebaseTodo />
         <FirebaseAuth />
         <DebounceApiCall />
+        <SortData />
       </div>
     </>
   )
